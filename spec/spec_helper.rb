@@ -5,10 +5,6 @@ require 'hatchet'
 
 require "#{Rake.application.original_dir}/lib/mongo_entity_store"
 
-RSpec.configure do |config|
-  config.color_enabled = true
-end
-
 include EntityStore
 
 Hatchet.configure do |config|
